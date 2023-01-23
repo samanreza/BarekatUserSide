@@ -57,7 +57,7 @@
     "repositories":[
         {
             "type":"vcs",
-            "url":"git@giphp ar thub.com:samanreza/BarekatPackage.git"
+            "url":"git@github.com:samanreza/BarekatPackage.git"
         }
     ],
     "config": {
