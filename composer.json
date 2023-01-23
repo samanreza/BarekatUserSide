@@ -3,12 +3,12 @@
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "license": "SF",
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
-        "saman/barekat-electronic-health": "dev-master",
+        "samanreza/barekat-electronic-health": "dev-master",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7"
     },
@@ -23,10 +23,11 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
-        }
+            "App\\": "app/"
+        },
+        "classmap": [
+            "database/seeders"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
@@ -56,7 +57,7 @@
     "repositories":[
         {
             "type":"vcs",
-            "url":"git@github.com:samanreza/BarekatPackage.git"
+            "url":"git@giphp ar thub.com:samanreza/BarekatPackage.git"
         }
     ],
     "config": {
