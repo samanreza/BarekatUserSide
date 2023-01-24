@@ -16,4 +16,10 @@ use App\Http\Controllers\Category\MainCategoryController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/test',[MainCategoryController::class,'index']);
+
+Route::group([
+    //'middleware' => '',
+    'prefix' => 'category',
+], function () {
+    Route::get('list', [MainCategoryController::class,'index']);
+});

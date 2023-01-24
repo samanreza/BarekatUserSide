@@ -4638,12 +4638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/samanreza/BarekatPackage.git",
-                "reference": "99c1ea6cb975174698af5dc2053fce4410eea302"
+                "reference": "cc8ab6d4883da0e5d9eeb4cd46dc2ea76ad1cd46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samanreza/BarekatPackage/zipball/99c1ea6cb975174698af5dc2053fce4410eea302",
-                "reference": "99c1ea6cb975174698af5dc2053fce4410eea302",
+                "url": "https://api.github.com/repos/samanreza/BarekatPackage/zipball/cc8ab6d4883da0e5d9eeb4cd46dc2ea76ad1cd46",
+                "reference": "cc8ab6d4883da0e5d9eeb4cd46dc2ea76ad1cd46",
                 "shasum": ""
             },
             "require": {
@@ -4690,7 +4690,7 @@
                 "source": "https://github.com/samanreza/BarekatPackage/tree/main",
                 "issues": "https://github.com/samanreza/BarekatPackage/issues"
             },
-            "time": "2023-01-24T08:13:10+00:00"
+            "time": "2023-01-24T08:41:58+00:00"
         },
         {
             "name": "sebastian/cli-parser",

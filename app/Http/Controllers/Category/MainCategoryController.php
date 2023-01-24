@@ -15,6 +15,8 @@ class MainCategoryController extends Controller
 
     public function index()
     {
-        return $this->category->index();
+        $result = $this->category->index();
+
+        return view('Category.index',['result'=>$result]);
     }
 }
